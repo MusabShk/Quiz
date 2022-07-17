@@ -45,7 +45,7 @@ form.addEventListener("submit", (e) => {
         score += 20;
       }
     });
-    badge.innerText = `Your score is ${score}`;
+    badge.innerText = `Your score is ${score} / 100`;
     // console.log(score);
     // console.log(badge.innerText);
   } else {
