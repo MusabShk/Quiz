@@ -1,0 +1,199 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- top section  -->
+    <div class="container">
+      <h1 class="display-1 text-center py-3">Can you solve this quiz ?</h1>
+    </div>
+    <!-- main container  -->
+    <div class="quiz py-5 bg-light">
+      <div class="container">
+        <form class="quiz-form text-black">
+          <div class="row justify-content-center">
+            <div class="col-10 col-sm-8">
+              <div class="input-group text-center">
+                <span class="input-group-text">Username</span>
+                <input
+                  type="text"
+                  class="form-control username"
+                  placeholder="simonsterner"
+                  name="username"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-10 col-sm-6 text-center">
+              <p class="feedback py-1" style="font-size: 13px">
+                <em>A single word, having between 6-12 characters.</em>
+              </p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <p class="lead">1. The standard protocol of the Internet is?</p>
+          </div>
+          <div class="col-12">
+            <div class="form-check mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q1"
+                value="A"
+                checked
+              />
+              <label class="form-check-label">TCP/IP</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check my-4 mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q1"
+                value="B"
+              />
+              <label class="form-check-label">Https</label>
+            </div>
+          </div>
+          <div class="row my-5">
+            <p class="lead">2. The first page of a website is called ?</p>
+          </div>
+          <div class="col-12">
+            <div class="form-check mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q2"
+                value="A"
+                checked
+              />
+              <label class="form-check-label">Web Page</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check my-4 mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q2"
+                value="B"
+              />
+              <label class="form-check-label">Home Page</label>
+            </div>
+          </div>
+          <div class="row my-5">
+            <p class="lead">3. Where is RAM located??</p>
+          </div>
+          <div class="col-12">
+            <div class="form-check mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q3"
+                value="A"
+                checked
+              />
+              <label class="form-check-label">Mother Board</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check my-4 mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q3"
+                value="B"
+              />
+              <label class="form-check-label">Expansion Board</label>
+            </div>
+          </div>
+          <div class="row my-5">
+            <p class="lead">4. ___ are specific to users’ needs</p>
+          </div>
+          <div class="col-12">
+            <div class="form-check mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q4"
+                value="A"
+                checked
+              />
+              <label class="form-check-label">Application software</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check my-4 mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q4"
+                value="B"
+              />
+              <label class="form-check-label">System software</label>
+            </div>
+          </div>
+          <div class="row my-5">
+            <p class="lead">
+              5. Which web browser was the first web browser from the following?
+            </p>
+          </div>
+          <div class="col-12">
+            <div class="form-check mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q5"
+                value="A"
+                checked
+              />
+              <label class="form-check-label">Mosaic</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check my-4 mx-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q5"
+                value="B"
+              />
+              <label class="form-check-label">MSIE</label>
+            </div>
+          </div>
+          <div class="row my-2 justify-content-between">
+            <div class="col-auto">
+              <input type="submit" class="btn btn-primary" value="submit" />
+            </div>
+            <div class="col-auto">
+              <h5><span class="badge bg-dark"></span></h5>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="sandbox.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
